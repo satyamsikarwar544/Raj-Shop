@@ -1,57 +1,142 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>राज बूट शॉप | बेस्ट फुटवियर कलेक्शन</title>
+  <title>Raj Boot Shop | Premium Footwear Collection</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-gray-100 text-gray-900 font-sans pb-20">
 
-  <!-- Header -->
-  <header class="bg-blue-600 text-white text-center py-8 px-4 shadow-md">
-    <h1 class="text-3xl font-bold">राज बूट शॉप</h1>
-    <p class="text-blue-100 mt-2 text-sm sm:text-base">फैंसी जूते, चप्पल और फॉर्मल शूज के सबसे बड़े विक्रेता</p>
+  <!-- Navigation Bar -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">👞</span>
+        <span class="text-xl font-black text-gray-800 tracking-tight">Raj Boot Shop</span>
+      </div>
+      <a href="tel:+919876543210" class="bg-blue-600 text-white text-xs sm:text-sm font-semibold px-4 py-2 rounded-full hover:bg-blue-700 transition">
+        📞 Call Now
+      </a>
+    </div>
   </header>
 
-  <!-- Main Content -->
-  <main class="max-w-xl mx-auto p-4 space-y-6">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-slate-900 to-slate-800 text-white text-center py-12 px-4">
+    <div class="max-w-2xl mx-auto">
+      <span class="bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">New Festive Collection</span>
+      <h1 class="text-3xl sm:text-5xl font-extrabold mt-4 leading-tight">Best Quality, Honest Pricing</h1>
+      <p class="text-gray-300 text-sm sm:text-base mt-2">Explore our wide range of formal, casual, sneakers, and sports footwear.</p>
+      
+      <div class="mt-5 flex justify-center items-center gap-2 text-yellow-400 text-sm font-medium">
+        <span>⭐ 4.8 Rating (500+ Google Reviews)</span>
+      </div>
+    </div>
+  </section>
 
-    <!-- About & Timing -->
-    <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
-      <h2 class="text-lg font-semibold text-gray-700 mb-2">दुकान की जानकारी</h2>
-      <p class="text-sm text-gray-600">समय: सुबह 10:00 बजे से रात 9:30 बजे तक (रोजाना खुला)</p>
-      <p class="text-sm text-gray-600 mt-1">पता: मेन मार्केट, घंटाघर के पास, शहर</p>
+  <!-- Quick Info Box -->
+  <section class="max-w-4xl mx-auto px-4 -mt-6">
+    <div class="bg-white rounded-xl shadow-md p-4 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm border border-gray-100">
+      <div class="flex items-center space-x-3 text-gray-700">
+        <span class="text-2xl">📍</span>
+        <div>
+          <p class="font-bold text-gray-900">Store Address</p>
+          <p class="text-gray-500">Main Market, Clock Tower Chowk, City</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-3 text-gray-700">
+        <span class="text-2xl">⏰</span>
+        <div>
+          <p class="font-bold text-gray-900">Opening Hours</p>
+          <p class="text-gray-500">10:00 AM – 9:30 PM (Open Everyday)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <main class="max-w-4xl mx-auto px-4 mt-10">
+    <div class="flex justify-between items-end mb-5">
+      <div>
+        <h2 class="text-2xl font-bold text-gray-800">Featured Footwear</h2>
+        <p class="text-xs text-gray-500 mt-0.5">Top-selling footwear available in-store</p>
+      </div>
+      <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-md">Trending</span>
     </div>
 
-    <!-- Contact & Action Buttons -->
-    <div class="space-y-3">
-      <!-- Call Button -->
-      <a href="tel:919876543210" class="block w-full text-center bg-gray-900 hover:bg-black text-white font-medium py-3 rounded-lg shadow transition">
-        📞 सीधे कॉल करें
-      </a>
+    <!-- 3-Column Product Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
 
-      <!-- WhatsApp Button (Replace with client's number) -->
-      <a href="https://wa.me/919876543210?text=नमस्ते,%20मुझे%20आपके%20सामान%20की%20जानकारी%20चाहिए।" target="_blank" class="block w-full text-center bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-lg shadow transition">
-        💬 व्हाट्सएप पर फोटो और रेट पूछें
-      </a>
+      <!-- Product Card 1 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80" alt="Sports Shoes" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-[10px] font-bold text-orange-500 tracking-widest uppercase">Athletic</span>
+          <h3 class="font-bold text-gray-800 text-lg mt-0.5">Air Cushioned Sports</h3>
+          <p class="text-xs text-gray-500 mt-1">Lightweight, breathable mesh with responsive sole.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <div>
+              <span class="text-lg font-black text-gray-900">₹799</span>
+              <del class="text-xs text-gray-400 ml-1">₹1,499</del>
+            </div>
+            <a href="https://wa.me/919876543210?text=Hi,%20I%20am%20interested%20in%20Air%20Cushioned%20Sports%20shoes." target="_blank" class="bg-green-600 hover:bg-green-700 text-white text-xs font-bold px-3 py-2 rounded-lg transition flex items-center gap-1.5">
+              <i class="fab fa-whatsapp"></i> Buy
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600&q=80" alt="Formal Shoes" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-[10px] font-bold text-blue-500 tracking-widest uppercase">Official</span>
+          <h3 class="font-bold text-gray-800 text-lg mt-0.5">Genuine Leather Formal</h3>
+          <p class="text-xs text-gray-500 mt-1">Perfect finish for office, meetings, and parties.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <div>
+              <span class="text-lg font-black text-gray-900">₹1,199</span>
+              <del class="text-xs text-gray-400 ml-1">₹2,299</del>
+            </div>
+            <a href="https://wa.me/919876543210?text=Hi,%20I%20am%20interested%20in%20Genuine%20Leather%20Formal%20shoes." target="_blank" class="bg-green-600 hover:bg-green-700 text-white text-xs font-bold px-3 py-2 rounded-lg transition flex items-center gap-1.5">
+              <i class="fab fa-whatsapp"></i> Buy
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80" alt="Sneakers" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-[10px] font-bold text-emerald-500 tracking-widest uppercase">Everyday</span>
+          <h3 class="font-bold text-gray-800 text-lg mt-0.5">Classic White Sneakers</h3>
+          <p class="text-xs text-gray-500 mt-1">Timeless style paired with comfortable inner padding.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <div>
+              <span class="text-lg font-black text-gray-900">₹899</span>
+              <del class="text-xs text-gray-400 ml-1">₹1,699</del>
+            </div>
+            <a href="https://wa.me/919876543210?text=Hi,%20I%20am%20interested%20in%20Classic%20White%20Sneakers." target="_blank" class="bg-green-600 hover:bg-green-700 text-white text-xs font-bold px-3 py-2 rounded-lg transition flex items-center gap-1.5">
+              <i class="fab fa-whatsapp"></i> Buy
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-
-    <!-- Products Showcase / Photos -->
-    <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
-      <h2 class="text-lg font-semibold text-gray-700 mb-3">हमारी वैरायटी</h2>
-      <ul class="list-disc list-inside text-sm text-gray-600 space-y-2">
-        <li>पार्टी वियर और कैजुअल स्नीकर्स</li>
-        <li>ऑफिस के लिए लेदर फॉर्मल शूज</li>
-        <li>लेडीज हील्स और सैंडल्स</li>
-        <li>बच्चों के लिए स्कूल और स्पोर्ट्स शूज</li>
-      </ul>
-    </div>
-
   </main>
 
-  <footer class="text-center py-6 text-xs text-gray-400">
-    © 2026 राज बूट शॉप. सर्वाधिकार सुरक्षित.
+  <!-- Floating Sticky WhatsApp Button -->
+  <a href="https://wa.me/919876543210?text=Hello%20Raj%20Boot%20Shop,%20I%20would%20like%20to%20inquire%20about%20your%20shoes." target="_blank" class="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-2xl flex items-center space-x-2.5 transition transform hover:scale-105 z-50">
+    <i class="fab fa-whatsapp text-2xl"></i>
+    <span class="font-semibold text-sm">Chat on WhatsApp</span>
+  </a>
+
+  <!-- Footer -->
+  <footer class="mt-16 text-center text-xs text-gray-400">
+    © 2026 Raj Boot Shop. All Rights Reserved. • Designed for Fast Local Delivery
   </footer>
 
 </body>
